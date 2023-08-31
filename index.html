@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
+    />
+    <title>Partner Appreciation</title>
+    <link rel="stylesheet" href="index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald&family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+  </head>
+  <body>
+    <div id="app-container">
+      <img id="coffeeIcon" src="assets/coffeeIcon.jpeg" />
+      <h1>Partner Appreciation Board</h1>
+      <div id="user-submission">
+        <textarea
+          id="user-input"
+          placeholder="Show your appreciation here"
+        ></textarea>
+        <input type="text" id="from-user" placeholder="From" />
+        <input type="text" id="to-user" placeholder="To" />
+      </div>
+
+      <button id="publish-btn">Publish</button>
+
+      <h2>- Current Submissions -</h2>
+
+      <ul id="submission-board-list"></ul>
+    </div>
+
+    <script src="index.js" type="module"></script>
+  </body>
+</html>
