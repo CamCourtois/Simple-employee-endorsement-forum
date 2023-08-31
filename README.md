@@ -1,1 +1,1 @@
-
+This app allows users to upload endorsement to their fellow coworkers in a public like forum due to the apps connection to a realtime firebase. Users input a simple endorsement message and then publish it to the forum in which is sorted by date and time. Users can also like other endorsements. 
